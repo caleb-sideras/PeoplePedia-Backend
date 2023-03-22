@@ -38,10 +38,10 @@ OPENAI_ORGANIZATION = env("OPENAI_ORGANIZATION")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
-CORS_ALLOWED_ORIGINS = ['http://localhost:5173']
+CORS_ALLOWED_ORIGINS = ['https://getmesummerizer.netlify.app']
 
 
 # Application definition
