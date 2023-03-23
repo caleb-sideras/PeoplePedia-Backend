@@ -416,11 +416,11 @@
         },
         "filelock": {
             "hashes": [
-                "sha256:09c5116de0578e26b9b29d7543606df58f296dd040341a14b08c625449ee4c9a",
-                "sha256:0bee209da99ac6da8ba71ee2fe2f29e7e0dfa84dd1020743a3fe8afda0e52b53"
+                "sha256:75997740323c5f12e18f10b494bc11c03e42843129f980f17c04352cc7b09d40",
+                "sha256:eb8f0f2d37ed68223ea63e3bddf2fac99667e4362c88b3f762e434d160190d18"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==3.10.1"
+            "version": "==3.10.2"
         },
         "frozenlist": {
             "hashes": [
@@ -1054,7 +1054,7 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
         },
         "soupsieve": {
@@ -1131,7 +1131,7 @@
                 "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
                 "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
             ],
-            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.10.2"
         },
         "tqdm": {
