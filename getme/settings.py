@@ -40,13 +40,15 @@ OPENAI_ORGANIZATION = env("OPENAI_ORGANIZATION")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'aipeoplepedia.com', 'aipeoplepedia.com/']
-CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'https://aipeoplepedia.com', 'https://aipeoplepedia.com/']
+ALLOWED_HOSTS = ['localhost', 'aipeoplepedia.com', 'aipeoplepedia.com/', 'getme.herokuapp.com', 'getme.herokuapp.com/']
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'https://aipeoplepedia.com', 'https://aipeoplepedia.com/', 'https://getme.herokuapp.com', 'https://getme.herokuapp.com/']
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:5000',
     'https://aipeoplepedia.com', 
     'https://aipeoplepedia.com/'
+    'https://getme.herokuapp.com',
+    'https://getme.herokuapp.com/'
 )
 
 CORS_ALLOW_METHODS = [
