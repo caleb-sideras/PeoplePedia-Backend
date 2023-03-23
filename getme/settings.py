@@ -38,10 +38,10 @@ OPENAI_ORGANIZATION = env("OPENAI_ORGANIZATION")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'getmesummerizer.netlify.app', 'getme.herokuapp.com/']
-CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'https://getmesummerizer.netlify.app']
+ALLOWED_HOSTS = ['localhost', 'getmesummerizer.netlify.app', 'getmesummerizer.netlify.app/', 'getme.herokuapp.com/']
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'https://getmesummerizer.netlify.app', 'https://getmesummerizer.netlify.app/']
 
 CORS_ALLOW_METHODS = [
     'DELETE',
