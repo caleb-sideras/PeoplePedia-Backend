@@ -18,6 +18,7 @@ setup(
         'scrapy==2.8.0',    
         'transformers==4.27.1',    
         'wincertstore==0.2',
-        'gunicorn==20.1.0'
+        'gunicorn==20.1.0',
+        'django-heroku==0.3.1'
     ],
 )

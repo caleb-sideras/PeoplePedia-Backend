@@ -1,1 +1,1 @@
-web: gunicorn getme.wsgi
+web: gunicorn getme.wsgi:application --log-file - 
