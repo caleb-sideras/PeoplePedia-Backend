@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='getmesummerizer',
+    name='getme',
     version='0.1',
     packages=find_packages(),
     include_package_data=True,
@@ -19,6 +19,5 @@ setup(
         'transformers==4.27.1',    
         'wincertstore==0.2',
         'gunicorn==20.1.0',
-        'django-heroku==0.3.1'
     ],
 )
