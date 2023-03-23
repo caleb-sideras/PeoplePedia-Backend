@@ -38,17 +38,17 @@ OPENAI_ORGANIZATION = env("OPENAI_ORGANIZATION")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'getmesummerizer.netlify.app', 'getmesummerizer.netlify.app/', 'getme.herokuapp.com/', 'getme.herokuapp.com']
-CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'https://getmesummerizer.netlify.app', 'https://getmesummerizer.netlify.app/', 'https://getme.herokuapp.com','https://getme.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', 'aipeoplepedia.com', 'aipeoplepedia.com/', 'getme.herokuapp.com/query/', 'getme.herokuapp.com/query']
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'https://aipeoplepedia.com', 'https://aipeoplepedia.com/', 'https://getme.herokuapp.com/query/', 'https://getme.herokuapp.com/query']
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:5000',
-    'https://getmesummerizer.netlify.app', 
-    'https://getmesummerizer.netlify.app/'
-    'https://getme.herokuapp.com',
-    'https://getme.herokuapp.com/'
+    'https://aipeoplepedia.com', 
+    'https://aipeoplepedia.com/'
+    'https://getme.herokuapp.com/query/',
+    'https://getme.herokuapp.com/query'
 )
 
 CORS_ALLOW_METHODS = [
