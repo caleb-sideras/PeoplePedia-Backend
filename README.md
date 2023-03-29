@@ -23,8 +23,8 @@
 <h2>Explanation</h2>
 <ol>
     <li>Recieves a JSON object {"name":"Elon Musk"} from the front-end</li>
-    <li>Performs a Bing Web-Search on the name field and receives X summerized webpages</li>
-    <li>Using prompt engineering, the back-end sends this data to the OpenAI text-davinci-003 model and receives a standardized JSON response (featured below)</li>
+    <li>Performs a Bing Web-Search on the name field and receives X summarized webpages</li>
+    <li>Using prompt engineering, the back-end posts this data to the OpenAI text-davinci-003 model and receives a standardized JSON response (featured below)</li>
     <li>STRONGLY serializes this JSON response (check serializer.py)</li>
     <li>Returns this object to the front-end</li>
 </ol>
