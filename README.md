@@ -29,7 +29,7 @@
     <li>Returns this object to the front-end</li>
 </ol>
 
-<h2>Properties<h3>
+<h2>Properties</h2>
 <p>This JSON object is returned to the front-end.</p>
 <ul>
   <li><strong>age:</strong> a string representing the age of the person</li>
@@ -63,7 +63,7 @@
 </ul>
 
 
-<h2>Example Object<h2>
+<h2>Example Object</h2>
 <pre>{
 "age": "50",
 "analysis": [
