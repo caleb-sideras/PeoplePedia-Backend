@@ -16,7 +16,6 @@
   </a> 
 </p>
 
-[Visit PeoplePedia](https://aipeoplepedia.com/)
 ![image](https://user-images.githubusercontent.com/66019710/228403877-bea9568f-96d1-4897-b5e8-01dcece7a52e.png)
 ![image](https://user-images.githubusercontent.com/66019710/228404612-d4bacfc7-566a-476a-8619-5a019b86f508.png)
 
